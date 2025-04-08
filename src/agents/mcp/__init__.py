@@ -1,14 +1,10 @@
-try:
-    from .server import (
-        MCPServer,
-        MCPServerSse,
-        MCPServerSseParams,
-        MCPServerStdio,
-        MCPServerStdioParams,
-    )
-except ImportError:
-    pass
-
+from .server import (
+    MCPServer,
+    MCPServerSse,
+    MCPServerSseParams,
+    MCPServerStdio,
+    MCPServerStdioParams,
+)
 from .util import MCPUtil
 
 __all__ = [
